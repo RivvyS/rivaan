@@ -1,0 +1,144 @@
+
+
+
+
+.logo{
+    width: 100px;
+}
+
+.headimg{
+    background-image: url("https://wallpapercave.com/wp/wp9372288.jpg");
+    color: white;
+    font-family: Gruppo;
+
+    font-weight: 900;
+}
+
+.hero{
+
+    color: white;
+
+    font-size: 100px;
+}
+
+.wht{
+    color:white;
+}
+
+.image{
+    animation: up-down 1.4s infinite ease-in-out alternate;
+    width: 15em;
+    margin-top: -3em;
+}
+
+@keyframes up-down{
+    from{
+      transform: translatey(0px);
+    }
+    to{
+      transform: translatey(-20px);
+    }
+  }
+
+
+.txt{
+    font-size: 120px;
+    font-weight:bolder;
+    margin-top: -2em;
+    margin-right: 12.5px;
+    margin-left: 25px;
+    color: white;
+
+
+
+
+}
+
+
+.font{
+    font-family: Dela Gothic One;
+}
+
+
+
+
+.txt2{
+    padding-bottom: -5em;
+    color: brown;
+}
+
+
+
+
+.img{
+    animation: up-down 1s infinite ease-in-out alternate;
+    width: 100em;
+    margin-top: -3em;
+
+}
+
+
+@keyframes up-down{
+    from{
+      transform: translatey(4px);
+    }
+    to{
+      transform: translatey(-20px);
+    }
+  }
+
+
+
+
+  .carl{
+    margin-left: 16em;
+    width: 7em;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 10px;
+
+  }
+
+
+.teamashwin{
+  margin-left: 2px;
+}
+
+
+#img1{
+  margin-right: 25px;
+
+
+}
+
+
+#img2{
+  margin-right: 25px;
+
+
+}
+
+
+
+
+#img3{
+  margin-right: 25px;
+
+
+}
+
+
+.txtgames{
+  font-weight: 900;
+  font-family: Gruppo;
+  font-size: 100px
+}
+.html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+.main
+{
+  background: #FBE4E4;
+}
