@@ -247,7 +247,11 @@ html,body
 
 @media (min-width: 768px) and (max-width: 1024px){
             .nav-list li a {
-                font-size: 60%;
+                font-size: 30%;
+            }
+            .nav-list {
+                position: relative;
+                right: 0px;
             }
         }
 
