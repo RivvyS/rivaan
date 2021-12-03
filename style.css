@@ -231,7 +231,7 @@ html,body
   color: rgba(0, 0, 0, 0);
   font-weight: bold;
   position: relative;
-  right: 0px;
+  right: 100px;
 
 }
 
@@ -244,6 +244,12 @@ html,body
     margin: 0 1rem;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1024px){
+            .nav-list li a {
+                font-size: 60%;
+            }
+        }
 
 .nav-list a {
   display: block;
